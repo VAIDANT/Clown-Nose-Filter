@@ -21,7 +21,7 @@ function modelLoaded() {
 
 function draw() {
     image(video, 0, 0, 300, 300);
-    image(img, nox, noy, 30, 30)
+    image(img, nox, noy)
 }
 
 function take_snapshot() {
